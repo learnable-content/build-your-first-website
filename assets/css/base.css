@@ -17,15 +17,6 @@ body
 	/* 16px/16px */
 }
 
-@media (min-width: 38em)
-{
-	body
-	{
-		font-size: 112.5%;
-		/* 18px/16px */
-	}
-}
-
 h1,
 h2,
 h3,
@@ -50,3 +41,16 @@ blockquote { margin: 0; }
 a:focus img { background: #000; }
 a:hover img { background: #3bb2d0; }
 a:active img { background: #af0000; }
+
+/* ----------------------------
+wide
+---------------------------- */
+
+@media (min-width: 38em)
+{
+	body
+	{
+		font-size: 112.5%;
+		/* 18px/16px */
+	}
+}

@@ -53,6 +53,10 @@ layout
 .col-narrow,
 .col-narrow--right { margin-bottom: 1.5em; }
 
+/* ----------------------------
+wide
+---------------------------- */
+
 @media (min-width: 38em)
 {
 	.row--padding-medium
