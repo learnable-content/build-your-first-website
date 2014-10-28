@@ -131,8 +131,7 @@ features
 
 .features { text-align: center; }
 
-.features__easy,
-.features__breakdown
+.features__row
 {
 	margin-bottom: 2.1875em;
 	/* 35px/16px */
@@ -173,14 +172,15 @@ features
 {
 	.features { text-align: left; }
 	
-	.features__easy,
-	.features__breakdown
+	.features__row
 	{
 		margin-bottom: 4.16666666666667em;
 		/* 75px/18px */
 	}
 	
-	.features__breakdown .col-wide--right
+	.features__row:last-child { margin: 0; }
+
+	.features__padding
 	{
 		padding-top: 4em;
 		/* 72px/18px */
@@ -369,7 +369,7 @@ footer
 
 .footer__info ul
 {
-	margin: 0 0 2em;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
@@ -387,6 +387,7 @@ footer
 .footer__info a:hover { color: #3BB2D0; }
 .footer__info a:active { color: #56b880; }
 .footer__logo { margin: 0 0 2em; }
+.footer__copyright { margin: 1em 0 0; }
 
 .footer__copyright li
 {
